@@ -5,30 +5,19 @@ body{
 	padding: 0;
 }
 
-
-
-
-
 article	{
 	display: block;
 	width: 400px;
 	margin: 0 auto;
 	padding: 30px;
-
 }
-
-
-
 
 footer{
 	background-color: #FFC122;
 	width: 100%;
 	height: 60px;
-
-
-
-
 }
+
 footer p {
 	color: white;
 	text-align: center;
@@ -44,31 +33,28 @@ footer p {
 	vertical-align: top;
 	width: 200px;
 	margin:0 auto;
-
-
 }
 
 .texto{
 	display: inline-block;
 	margin: 20px;
 }
+
 .texto h2{
 	color: #205E77;
 }
+
 .texto ul {
 	color: #ED8A51;
 	text-decoration: underline;
 }
 
-
-
 .cabecalho{
 	font-size: 50pt;
 	text-align: center;
 	color: #2E667D;
-
-
 }
+
 .imgtop{
 	display: block;
 	margin: 0 auto;
