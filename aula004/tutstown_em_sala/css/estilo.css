@@ -1,0 +1,82 @@
+/*
+@font-face{
+	font-family: Teste;
+	src: url('../font/Brokenbrush.ttf');
+}
+
+
+
+h2{
+	font-family: Teste;
+	font-size: 28px
+}
+
+*/
+
+.img_header{
+	width: 650px;
+}
+
+.article{
+	width: 200px;
+}
+
+
+body{
+	background-color: #FAF8DA;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+
+}
+header{
+	text-align: center;
+
+}
+h1{
+	font-size: 70px;
+	color: #205D76;
+}
+
+
+/* Esta é a section*/
+
+article{
+	display: flex; /*Torna o conteudo flexivel, coloca o elemento um do lado do outro*/
+	margin: 50px auto;
+	width: 450px;
+}
+
+
+div{
+	margin-left: 30px; 
+
+}
+
+h2{
+	color: #205D76;
+	font-size: 30px;
+}
+
+ul{
+	color: #FFC122;
+	padding-left: 15px; 
+}
+
+li{
+	margin-bottom: 10px;
+}
+
+a{
+	color: #EA6E2F;
+	font-size: 20px;
+}
+
+/*Essa parte é a parte do roda pé*/
+p{
+	color:#FFFFFF;
+}
+footer{
+	background-color: #FFC122;
+	text-align: center;
+	padding: 2px;
+}

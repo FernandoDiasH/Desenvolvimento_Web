@@ -1,0 +1,11 @@
+@fonte-face{
+	font-family: Brokenbrush;
+	src: url('..font/Brokenbrush.ttf');	
+}
+
+
+.fonte{
+	font-family: Brokenbrush;
+	font-size: 16px;
+
+}
