@@ -1,0 +1,66 @@
+.container{
+
+}
+.img{
+	position: relative;
+	width: 100%;
+	display: inline-block;
+	border: solid;
+	border-color: black;
+}
+
+.img img{
+	display: block;
+	width: 100%;
+	height: 90%;
+
+}
+
+.caixa{
+	position: absolute;
+	top: 15%;
+	bottom: 0;
+	left: 1%;
+	right: 0;
+	opacity: 40%;
+	display: block;
+	width: 40%;
+	height: 30%;
+	background-color: black;
+	color: white;
+}
+
+body{
+	margin: 0;
+}
+
+
+nav{
+	
+	text-align: right;
+}
+
+
+li{
+	display: inline;
+	padding: 30px;
+
+	
+}
+
+
+
+a{
+	text-decoration: none;
+}
+
+article{
+	display: inline-flex;
+}
+
+article img{
+	width: 250px;
+	height: 250px;
+
+
+}
