@@ -1,0 +1,86 @@
+.container{
+	display: block;
+	margin: 0 auto;
+	width: 80%;
+	height: 100%;
+
+}
+
+.banner{
+	background-image: url('../img/banner.jpg');
+	width: 100%;
+	height: 445px;
+}
+
+.caixa{
+	position: relative;
+	top: 45px;
+	display: block;
+	width: 45%;
+	height: 40%;
+	background-color: rgba(0,0,0,0.7);
+	
+
+}
+
+.caixa p{
+	color: white;
+	font-size: 25px;
+}
+
+.caixa a{
+	color: #00FEEE;
+	font-size: 25px;
+	text-decoration: none;
+}
+
+.caixa h1{
+	color: white;
+	text-align: center;
+}
+.img-coluna{
+	width: 264px;
+	height: 213px;
+
+}
+
+div{
+	width: 100px;
+}
+
+body{
+	margin: 0;
+}
+
+
+nav{
+	
+	text-align: right;
+}
+
+
+li{
+	display: inline;
+	padding: 30px;	
+}
+
+
+
+a{
+	text-decoration: none;
+}
+
+article{
+	display: inline-grid;
+	margin-top:56px;
+	
+
+}
+
+article div{
+	display: block;
+	width: 264px;
+}
+
+
+
