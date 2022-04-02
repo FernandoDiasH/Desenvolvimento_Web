@@ -1,14 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro:wght@200&display=swap');
+
+
 .container{
 	display: block;
 	margin: 0 auto;
-	width: 80%;
-	height: 100%;
+	width: 1128px;
+
 
 }
 
 .banner{
 	background-image: url('../img/banner.jpg');
-	width: 100%;
+	width: 1128px;
 	height: 445px;
 }
 
@@ -16,27 +19,31 @@
 	position: relative;
 	top: 45px;
 	display: block;
-	width: 45%;
-	height: 40%;
-	background-color: rgba(0,0,0,0.7);
+	width: 480px;
+	height: 214.81px;
+	background-color: rgba(0,0,0,0.6);
 	
 
 }
 
 .caixa p{
 	color: white;
-	font-size: 25px;
+	font-size: 20px;
+	margin-left: 28px;
 }
 
 .caixa a{
 	color: #00FEEE;
-	font-size: 25px;
+	font-size: 17px;
 	text-decoration: none;
+	margin-left: 28px;
 }
 
 .caixa h1{
 	color: white;
 	text-align: center;
+	font-size: 42px;
+	margin-top: 23px;
 }
 .img-coluna{
 	width: 264px;
@@ -50,6 +57,8 @@ div{
 
 body{
 	margin: 0;
+	font-family: 'Roboto', sans-serif;
+
 }
 
 
@@ -59,20 +68,34 @@ nav{
 }
 
 
+
 li{
 	display: inline;
-	padding: 30px;	
+	padding: 30px;
+	font-size: 20px;
+
 }
 
 
 
 a{
 	text-decoration: none;
+	color: #999999;	
 }
 
+h2{
+	font-size: 26px;
+	color: #444444;
+}
+p{
+	font-size: 18px;
+	color: #444444;
+}
 article{
 	display: inline-grid;
 	margin-top:56px;
+	margin-right: 15px;
+	height: 449.88px;
 	
 
 }
@@ -80,6 +103,11 @@ article{
 article div{
 	display: block;
 	width: 264px;
+	
+}
+
+footer{
+	margin-top: 77px;
 }
 
 
