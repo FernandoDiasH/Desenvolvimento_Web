@@ -40,11 +40,11 @@ header{
 }
 
 .logo{
-	width: 20.7%; /*234px*/
+	width: 20.74%; /*234px*/
 	float: left;
 }
 nav{
-	width: 74.5%; /*840px*/ 
+	width: 74.47%; /*840px*/ 
 	float: right;
 }
 
@@ -54,8 +54,8 @@ nav ul{
 
 nav li{
 	font-size: 1.2em; /*12px*/
-	margin-left: 1.7em; /*20px*/
-	margin-top: 0.8em; /*10px*/
+	margin-left: 2em; /*20px*/
+	margin-top: 1em; /*10px*/
 	display: inline-block;
 }
 
@@ -67,7 +67,7 @@ nav li a{
 .banner{
 	background: url('../img/banner.jpg');
 	height: 450px;
-	margin-bottom: 4.2em;/*48px*/
+	margin-bottom: 4.8em;/*48px*/
 	position: relative;
 }
 
@@ -76,7 +76,7 @@ nav li a{
 	top: 48px; /*48px*/
 	background: rgba(0,0,0,0.6);
 	width: 42.55%; /*480px*/
-	padding: 24px 14px 24px 40px; /*24px 14px 24px 40px;*/
+	padding: 2.4em 1.4em 2.4em 4em; /*24px 14px 24px 40px;*/
 }
 
 h1{
@@ -96,7 +96,7 @@ h1{
 article{
 	width: 23.4%;/*264px*/
 	float: left;
-	margin-right: 24px;/*24px*/	
+	margin-right: 2.13%;/*24px*/	
 }
 
 article:last-child{
@@ -114,11 +114,122 @@ p{
 
 footer{
 	width: 100%;
-	margin-top: 24px; /*24px*/
-	margin-bottom: 24px; /*24px*/
+	margin-top: 2.4em; /*24px*/
+	margin-bottom: 2.4em; /*24px*/
 }
 
 .footer{
-	font-size: 10px;
+	font-size: 1em;
 	margin-bottom: 0;
+}
+
+@media screen and (max-width: 1128px){
+	.container {
+		padding: 0 2.4em 0 2.4em;
+	}
+
+
+
+}
+
+@media screen and (max-width: 768px){
+
+	.caixa{
+		width: 65%;
+	}
+
+	article{
+		width: 48%;
+		margin-right: 2%;
+		margin-bottom: 2.4em;
+	}
+
+	article:nth-child(even){
+		margin-right: 0;
+	}
+
+	.logo{
+		margin-top: 1.2em;
+		width: 25%;
+	}
+}
+
+@media screen and (max-width: 718px){
+	.banner{
+		position: relative;
+		float: left;
+		margin: 0;
+		height: 250px;
+	}
+
+	.caixa{
+		position: relative;
+		float: left;
+		width: 100%;
+		background: #000;
+		margin-top: 200px;
+		display: block;
+
+	}
+	h1{
+		font-style: 2.5em;
+	}
+
+	section{
+		margin-top: 550px;
+	}
+
+
+}
+
+@media screen and (max-width: 640px){
+	nav{
+		width: 100%;
+	}
+
+	nav li{
+		font-size:0.8em;
+		float: left;
+	}
+
+	nav li:first-child{
+		margin-right: 0;
+	}
+
+
+}
+
+@media screen and (max-width: 520px){
+	article{
+		width: 100%;
+		margin-right: 0;
+	}
+
+	.caixa{
+		padding: 1.2em 2em 1.2em 2em;
+		position: relative;
+		display: block;
+		float: left;
+		width: 100%;
+		background: #000;
+		margin-top: 80px;	
+	}
+
+	.banner{
+		height: 120px;
+	}
+}
+
+.clearfix:before, .clearfix:after {
+	content: "";
+	display: table;
+
+}
+
+.clearfix:after{
+	clear: both;
+}
+
+.clearfix{
+	*zoom:1;
 }
