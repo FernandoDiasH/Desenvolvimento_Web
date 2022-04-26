@@ -1,0 +1,111 @@
+
+.container{
+	max-width: 1366px;
+	margin: 0 auto;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	width: 100%;
+	height: 110px;
+	background-color: #242D40;
+}
+
+h1{
+	color: #fff;
+	width: 153px;
+	padding: 0 10px 0 50px;
+	
+	float: left;
+}
+
+nav{
+	float: right;
+	margin-right: 60px;
+	margin-top: 35px;
+}
+
+nav li{
+	display: inline-block;
+
+}
+nav a {
+	text-decoration: none;
+	color: #fff;
+	margin-left: 25px;
+
+}
+nav a:hover{
+	text-decoration: underline;
+}
+
+.sobre{
+	background-color: #3F4B59;
+	height: 660px;
+	padding: 100px 0 0 50px;
+
+}
+
+.sobre p{
+	margin-top: 0;
+	color: #fff;
+	font-size: 24px;
+
+}
+.sobre  h3{
+	margin-top: 0;
+	color: #fff;
+	font-size: 36px;
+
+}
+
+.sobre h2{
+	color: #D9D2BF;
+	font-size: 36px;
+}
+
+.sobre div{
+	float: left;
+	width: 740px;
+	height: 440px;
+}
+
+.sobre img{
+	width: 410px;
+	height: 390px;
+	float: left;
+	padding-left: 80px;
+
+}
+.sobre p{
+	padding-top: 50px;
+}
+
+article{
+	width: 378px;
+	height: 530px;
+	float: right;
+
+}
+
+article img{
+	width: 100%;
+
+}
+
+.contatos{
+	display: block;
+}
+
+.contatos img{
+	width: 72px;
+}
+
+
+footer{
+	background-color:#242D40 ;
+}
