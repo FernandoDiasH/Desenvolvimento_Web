@@ -1,7 +1,12 @@
-
+*{
+	box-sizing: border-box;
+}
 .container{
-	max-width: 1366px;
+	max-width: 100%;
 	margin: 0 auto;
+}
+img{
+	max-width: 100%;
 }
 
 body{
@@ -18,15 +23,14 @@ header{
 h1{
 	color: #fff;
 	width: 153px;
-	padding: 0 10px 0 50px;
-	
+	padding: 0 0 0 50px;
 	float: left;
 }
 
 nav{
 	float: right;
-	margin-right: 60px;
-	margin-top: 35px;
+	margin-right: 100px;
+	margin-top: 60px;
 }
 
 nav li{
@@ -43,21 +47,23 @@ nav a:hover{
 	text-decoration: underline;
 }
 
+
+
+
 .sobre{
 	background-color: #3F4B59;
 	height: 660px;
-	padding: 100px 0 0 50px;
+	padding: 50px 0 0 50px;
+
 
 }
 
 .sobre p{
-	margin-top: 0;
 	color: #fff;
 	font-size: 24px;
 
 }
 .sobre  h3{
-	margin-top: 0;
 	color: #fff;
 	font-size: 36px;
 
@@ -72,33 +78,69 @@ nav a:hover{
 	float: left;
 	width: 740px;
 	height: 440px;
+
 }
 
 .sobre img{
 	width: 410px;
 	height: 390px;
-	float: left;
-	padding-left: 80px;
+	
+	/*padding-left: 80px;*/
 
 }
 .sobre p{
 	padding-top: 50px;
 }
+section{
+	height: 800px;
+}
+
+section h2{
+	margin-left:50px;
+	font-size: 40px;
+}
 
 article{
 	width: 378px;
-	height: 530px;
-	float: right;
+	/*height: 530px;*/
+	float: left;
+	margin: 0 50px 0 100px;
 
 }
-
-article img{
-	width: 100%;
-
+article:last-child{
+	margin-right: 0;
 }
+
+
+
+article button{
+	background-color: #242D40  ;
+	color: #fff;
+	width: 330px;
+	height: 63px;
+ 	border-radius: 12px;
+ 	margin: 0 auto;
+ 	margin-top: 10px;
+ 	font-size: 18px;
+}
+
+
+
 
 .contatos{
 	display: block;
+	
+}
+.contatos a{
+
+	display: inline-block;
+	height: 72px;
+	text-decoration: none;
+	color: #000;
+	line-height: 50px;
+	padding: 0 0 50px 0;
+	vertical-align: middle;
+
 }
 
 .contatos img{
@@ -107,5 +149,8 @@ article img{
 
 
 footer{
+
+	bottom: 0;
 	background-color:#242D40 ;
+	display: block;
 }
