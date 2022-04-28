@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+
+
 *{
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
+	font-family: 'Nunito Sans', sans-serif;
 }
 
 nav, ul, li, a{
@@ -12,13 +16,15 @@ nav, ul, li, a{
 }
 
 header{
+	background-color: #242D40;
+} 
+header div{
 	display: flex;
 	height: 10vh;
 	justify-content: space-between;
 	align-items: center;
-	padding: 50px;
-	background-color: blue;
 	color: #fff;
+	margin: 0 50px 0 50px; 
 }
 
 h1{
@@ -40,110 +46,159 @@ li:hover{
 }
 
 main{
+
+	background-color: #3F4B59;
+}
+
+main .container{
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	margin: 0 50px;
 	height: 90vh;
 }
 
-main div{
+main .conteudo{
 	display: flex;
 	flex-direction: column;
-	max-width: 700px;
+	max-width: 600px;
 	min-height: 30vh;
-	margin-left: 50px;
 	
 }
 main .item{
 	flex:1;
-	margin: 0;
-	margin-top: 30px;
+	margin-top: 25px;
 }
 
 main  h2{
-	color: aquamarine;
+	color: #D9D2BF;
 	font-size: 40px;
+	margin-left: 0 ;
+	margin-bottom: 0;
 }
 main h3{
 	font-size: 25px;
+	color: #fff;
 }
 
 main p{
-	font-size: 18px;
+	font-size: 20px;
+	color: #fff;
 }
 
 main img{
-	width: 400px;
-	height:	400px;
+	width: 398px;
+	height:	380px;
 }
 
 h2{
-	margin: 20px 0 20px 50px;
+
 	font-size: 36px;
+	margin: 30px 0 30px 50px;
 }
 
-section{
+
+
+section .conteudo_sec{
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-around;
-	height: 600px;
+	margin: 0 50px;
+	
 }
 
 article{
 	display: flex;
+	
 	flex-direction: column;
 }
 
-article .img{
+article img{
 	width: 350px;
-	height: 350px;
-	background-color: aqua;
-}
-article button{
-	margin:50px 0 0 0;
-	height: 40px;
-	border-radius: 12px;
-	border-style: none;
-	background-color: blue;
-	color:white
+	height: 369px;
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
 }
 
+button, a{
+	font-size: 18px;
+}
+
+article button{
+	height: 50px;
+	margin: 20px 0 0 0; 
+	border-radius: 12px;
+	border-style: none;
+	background-color: #242D40;
+	color:white
+}
+article a {
+	color: #fff;
+
+}
+article button:hover {
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
+}
+
+article:nth-child(3){
+	justify-content: space-between;
+	width: 350px;
+		
+}
+article:nth-child(3) button{
+	height: 70px;
+	margin: 0;
+}
 .contatos{
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	
 	height: 200px;
 }
 
 .contatos img{
 	width: 72px;
 	height: 72px;
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
 	
 
 }
 .contatos .item{
 	display: flex;
 	align-items: center;
+	
 }
 
 .contatos .item a{
-	margin-left: 25px;
+	color: #000;
+	margin: 0 0 0 20px;
+}
+.contatos a:hover{
+	text-decoration: underline;
 }
 
 footer{
-	display: flex;
-	flex-direction: column;
+	
 	height: 150px;
-	background-color: blue;
+	background-color: #242D40;
 	color: #fff;
 }
 
-footer div{
-	margin: 20px 0 0 50px;
+.footer{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 20vw;
+	height: 90%;
+	margin: 0 0 0 50px;
 }
 
-footer div h3,p{
-	
-	margin-bottom: 5px;
-
+.footer_cont{
+	flex-direction: row;
+	justify-content: center;
 }
+footer h3, p{
+	margin: 10px 0 0 0;
+}
+ footer h3{
+	 font-size: 15px;
+ }
